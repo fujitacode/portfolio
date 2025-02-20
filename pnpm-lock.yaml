@@ -49,8 +49,8 @@ importers:
         specifier: ^19
         version: 19.0.4(@types/react@19.0.10)
       husky:
-        specifier: ^9.1.7
-        version: 9.1.7
+        specifier: ^8.0.0
+        version: 8.0.3
       postcss:
         specifier: ^8
         version: 8.5.3
@@ -505,9 +505,9 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  husky@9.1.7:
-    resolution: {integrity: sha512-5gs5ytaNjBrh5Ow3zrvdUUY+0VxIuWVL4i9irt6friV+BqdCfmV11CQTWMiBYWHbXhco+J1kHfTOUkePhCDvMA==}
-    engines: {node: '>=18'}
+  husky@8.0.3:
+    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
+    engines: {node: '>=14'}
     hasBin: true
 
   is-arrayish@0.3.2:
@@ -1222,7 +1222,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  husky@9.1.7: {}
+  husky@8.0.3: {}
 
   is-arrayish@0.3.2:
     optional: true
