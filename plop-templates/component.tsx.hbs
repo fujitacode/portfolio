@@ -1,0 +1,11 @@
+import styles from "./{{pascalCase name}}.module.scss";
+
+type {{pascalCase name}}Props = {
+  className?: string;
+};
+
+export default function {{pascalCase name}}({
+  className,
+}: {{pascalCase name}}Props) {
+  return <div className="{{camelCase name}}">{{pascalCase name}}</div>;
+}
