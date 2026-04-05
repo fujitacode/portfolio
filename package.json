@@ -9,7 +9,9 @@
 		"format": "biome format --write .",
 		"lint": "biome lint .",
 		"check": "biome check .",
-		"fix": "biome check --write ."
+		"fix": "biome check --write .",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
 	},
 	"dependencies": {
 		"next": "16.2.2",
@@ -25,6 +27,10 @@
 		"eslint": "^9",
 		"eslint-config-next": "16.2.2",
 		"tailwindcss": "^4",
-		"typescript": "^5"
+		"typescript": "^5",
+		"storybook": "^10.3.4",
+		"@storybook/nextjs-vite": "^10.3.4",
+		"vite": "^8.0.3",
+		"eslint-plugin-storybook": "^10.3.4"
 	}
 }
